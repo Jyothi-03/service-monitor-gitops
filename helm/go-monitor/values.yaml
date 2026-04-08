@@ -1,0 +1,9 @@
+replicaCount: 2
+
+image:
+  repository: kbjyothi212e277/service-monitor
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 80
